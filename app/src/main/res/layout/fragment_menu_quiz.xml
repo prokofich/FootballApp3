@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:layout_height="match_parent"
+    tools:context=".view.MenuQuizFragment">
+
+    <TextView
+        android:layout_width="99dp"
+        android:background="#09a6e0"
+        android:text="back"
+        android:id="@+id/id_menu_quiz_back"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_height="95dp" />
+
+    <TextView
+        android:background="#09a6e0"
+        android:id="@+id/id_menu_quiz_hard"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:text="hard"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_height="80dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="#09a6e0"
+        android:layout_width="300dp"
+        android:id="@+id/id_menu_quiz_medium"
+        android:layout_gravity="center"
+        android:text="medium"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_height="80dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_menu_quiz_easy"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:background="#09a6e0"
+        android:text="easy"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_height="80dp"/>
+
+
+
+</LinearLayout>

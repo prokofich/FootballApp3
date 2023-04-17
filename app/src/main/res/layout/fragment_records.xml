@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:layout_height="match_parent"
+    tools:context=".view.RecordsFragment">
+
+    <TextView
+        android:layout_width="99dp"
+        android:text="back"
+        android:id="@+id/id_record_back"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_height="95dp" />
+
+    <TextView
+        android:layout_width="328dp"
+        android:id="@+id/id_record_easy"
+        android:text="рекорд легкого уровня: 0 "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@color/blue_background"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="328dp"
+        android:id="@+id/id_record_medium"
+        android:text="рекорд среднего уровня: 0 "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@color/blue_background"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="328dp"
+        android:id="@+id/id_record_hard"
+        android:text="рекорд сложного уровня: 0 "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_height="100dp"
+        android:background="@color/blue_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+
+
+
+
+</LinearLayout>

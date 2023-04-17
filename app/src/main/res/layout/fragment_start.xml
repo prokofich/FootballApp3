@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".view.StartFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="Football quiz"
+        android:textColor="@color/white"
+        android:textSize="66dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/id_start_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="288dp"
+        android:scaleY="3"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:progressTint="@color/white" />
+
+    <TextView
+        android:id="@+id/id_start_quotos"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="дукодповдлаповдлповлдаповдлаопдвлаповдлаповлдаопвлдаповдлаоп"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/id_start_quotos_author"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:gravity="right"
+        android:text="автор цитаты"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+
+
+
+</LinearLayout>
